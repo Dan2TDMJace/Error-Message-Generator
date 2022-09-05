@@ -1,0 +1,12 @@
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\bin\Release\Message Box Generator.exe.config
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\bin\Release\Message Box Generator.exe
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\bin\Release\Message Box Generator.pdb
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\bin\Release\Message Box Generator.xml
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.vbproj.AssemblyReference.cache
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message_Box_Generator.Form1.resources
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message_Box_Generator.Resources.resources
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.vbproj.GenerateResource.cache
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.vbproj.CoreCompileInputs.cache
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.exe
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.xml
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.pdb
