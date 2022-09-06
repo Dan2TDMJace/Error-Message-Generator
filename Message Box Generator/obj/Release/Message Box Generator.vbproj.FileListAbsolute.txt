@@ -10,3 +10,4 @@ C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Rele
 C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.exe
 C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.xml
 C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.pdb
+C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Release\Message Box Generator.vbproj.SuggestedBindingRedirects.cache

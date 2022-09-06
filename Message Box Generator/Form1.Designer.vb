@@ -29,14 +29,18 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.CheckedListBox2 = New System.Windows.Forms.CheckedListBox()
+        Me.Icon16 = New System.Windows.Forms.RadioButton()
+        Me.Icon64 = New System.Windows.Forms.RadioButton()
+        Me.Icon48 = New System.Windows.Forms.RadioButton()
+        Me.Icon32 = New System.Windows.Forms.RadioButton()
+        Me.YN = New System.Windows.Forms.RadioButton()
+        Me.RTC = New System.Windows.Forms.RadioButton()
+        Me.OKC = New System.Windows.Forms.RadioButton()
+        Me.Ok = New System.Windows.Forms.RadioButton()
+        Me.ARI = New System.Windows.Forms.RadioButton()
+        Me.YNC = New System.Windows.Forms.RadioButton()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -53,7 +57,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(212, 58)
+        Me.Label2.Location = New System.Drawing.Point(155, 49)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(51, 27)
         Me.Label2.TabIndex = 1
@@ -71,17 +75,17 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(78, 88)
+        Me.TextBox1.Location = New System.Drawing.Point(43, 79)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(298, 345)
+        Me.TextBox1.Size = New System.Drawing.Size(273, 345)
         Me.TextBox1.TabIndex = 4
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(706, 72)
+        Me.Label3.Location = New System.Drawing.Point(348, 49)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(51, 27)
         Me.Label3.TabIndex = 5
@@ -89,113 +93,169 @@ Partial Class Form1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(711, 102)
+        Me.TextBox2.Location = New System.Drawing.Point(339, 79)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(219, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(607, 20)
         Me.TextBox2.TabIndex = 6
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(738, 239)
+        Me.Label4.Location = New System.Drawing.Point(738, 204)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(85, 27)
         Me.Label4.TabIndex = 12
         Me.Label4.Text = "Buttons"
         '
-        'CheckedListBox1
-        '
-        Me.CheckedListBox1.ImeMode = System.Windows.Forms.ImeMode.Off
-        Me.CheckedListBox1.Items.AddRange(New Object() {"Ok", "Ok Cancel", "Abort Retry Ignore", "Yes No Cancel", "Yes No", "Retry Cancel", "Cancel Retry Continue"})
-        Me.CheckedListBox1.Location = New System.Drawing.Point(743, 269)
-        Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(137, 109)
-        Me.CheckedListBox1.TabIndex = 13
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(538, 239)
+        Me.Label5.Location = New System.Drawing.Point(457, 204)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(53, 27)
         Me.Label5.TabIndex = 14
         Me.Label5.Text = "Icon"
         '
-        'CheckedListBox2
+        'Icon16
         '
-        Me.CheckedListBox2.FormattingEnabled = True
-        Me.CheckedListBox2.Items.AddRange(New Object() {"16", "32 ", "64 ", "48"})
-        Me.CheckedListBox2.Location = New System.Drawing.Point(543, 269)
-        Me.CheckedListBox2.Name = "CheckedListBox2"
-        Me.CheckedListBox2.Size = New System.Drawing.Size(48, 64)
-        Me.CheckedListBox2.TabIndex = 15
+        Me.Icon16.AutoSize = True
+        Me.Icon16.Location = New System.Drawing.Point(462, 234)
+        Me.Icon16.Name = "Icon16"
+        Me.Icon16.Size = New System.Drawing.Size(47, 17)
+        Me.Icon16.TabIndex = 21
+        Me.Icon16.TabStop = True
+        Me.Icon16.Text = "Error"
+        Me.Icon16.UseVisualStyleBackColor = False
+        '
+        'Icon64
+        '
+        Me.Icon64.AutoSize = True
+        Me.Icon64.Location = New System.Drawing.Point(462, 280)
+        Me.Icon64.Name = "Icon64"
+        Me.Icon64.Size = New System.Drawing.Size(77, 17)
+        Me.Icon64.TabIndex = 22
+        Me.Icon64.TabStop = True
+        Me.Icon64.Text = "Information"
+        Me.Icon64.UseVisualStyleBackColor = True
+        '
+        'Icon48
+        '
+        Me.Icon48.AutoSize = True
+        Me.Icon48.Location = New System.Drawing.Point(462, 257)
+        Me.Icon48.Name = "Icon48"
+        Me.Icon48.Size = New System.Drawing.Size(65, 17)
+        Me.Icon48.TabIndex = 23
+        Me.Icon48.TabStop = True
+        Me.Icon48.Text = "Warning"
+        Me.Icon48.UseVisualStyleBackColor = True
+        '
+        'Icon32
+        '
+        Me.Icon32.AutoSize = True
+        Me.Icon32.Location = New System.Drawing.Point(462, 303)
+        Me.Icon32.Name = "Icon32"
+        Me.Icon32.Size = New System.Drawing.Size(67, 17)
+        Me.Icon32.TabIndex = 24
+        Me.Icon32.TabStop = True
+        Me.Icon32.Text = "Question"
+        Me.Icon32.UseVisualStyleBackColor = True
+        '
+        'YN
+        '
+        Me.YN.AutoSize = True
+        Me.YN.Location = New System.Drawing.Point(743, 326)
+        Me.YN.Name = "YN"
+        Me.YN.Size = New System.Drawing.Size(63, 17)
+        Me.YN.TabIndex = 26
+        Me.YN.TabStop = True
+        Me.YN.Text = "Yes, No"
+        Me.YN.UseVisualStyleBackColor = True
+        '
+        'RTC
+        '
+        Me.RTC.AutoSize = True
+        Me.RTC.Location = New System.Drawing.Point(743, 303)
+        Me.RTC.Name = "RTC"
+        Me.RTC.Size = New System.Drawing.Size(89, 17)
+        Me.RTC.TabIndex = 27
+        Me.RTC.TabStop = True
+        Me.RTC.Text = "Retry, Cancel"
+        Me.RTC.UseVisualStyleBackColor = True
+        '
+        'OKC
+        '
+        Me.OKC.AutoSize = True
+        Me.OKC.Location = New System.Drawing.Point(743, 280)
+        Me.OKC.Name = "OKC"
+        Me.OKC.Size = New System.Drawing.Size(78, 17)
+        Me.OKC.TabIndex = 28
+        Me.OKC.TabStop = True
+        Me.OKC.Text = "Ok, Cancel"
+        Me.OKC.UseVisualStyleBackColor = True
+        '
+        'Ok
+        '
+        Me.Ok.AutoSize = True
+        Me.Ok.Location = New System.Drawing.Point(743, 257)
+        Me.Ok.Name = "Ok"
+        Me.Ok.Size = New System.Drawing.Size(39, 17)
+        Me.Ok.TabIndex = 29
+        Me.Ok.TabStop = True
+        Me.Ok.Text = "Ok"
+        Me.Ok.UseVisualStyleBackColor = True
+        '
+        'ARI
+        '
+        Me.ARI.AutoSize = True
+        Me.ARI.Location = New System.Drawing.Point(743, 234)
+        Me.ARI.Name = "ARI"
+        Me.ARI.Size = New System.Drawing.Size(117, 17)
+        Me.ARI.TabIndex = 30
+        Me.ARI.TabStop = True
+        Me.ARI.Text = "Abort, Retry, Ignore"
+        Me.ARI.UseVisualStyleBackColor = True
+        '
+        'YNC
+        '
+        Me.YNC.AutoSize = True
+        Me.YNC.Location = New System.Drawing.Point(743, 349)
+        Me.YNC.Name = "YNC"
+        Me.YNC.Size = New System.Drawing.Size(102, 17)
+        Me.YNC.TabIndex = 31
+        Me.YNC.TabStop = True
+        Me.YNC.Text = "Yes, No, Cancel"
+        Me.YNC.UseVisualStyleBackColor = True
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(540, 336)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(21, 488)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(73, 19)
-        Me.Label6.TabIndex = 16
-        Me.Label6.Text = "16 = Error"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(540, 352)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(99, 19)
-        Me.Label7.TabIndex = 17
-        Me.Label7.Text = "32 = Question"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(540, 368)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(68, 19)
-        Me.Label8.TabIndex = 18
-        Me.Label8.Text = "64 = Info"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(540, 384)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(72, 19)
-        Me.Label9.TabIndex = 19
-        Me.Label9.Text = "48 = Alert"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(228, 480)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(595, 19)
-        Me.Label10.TabIndex = 20
-        Me.Label10.Text = "Important! If you have an icon set, you have to have the buttons set because of h" &
-    "ow VB works."
+        Me.Label6.Size = New System.Drawing.Size(895, 26)
+        Me.Label6.TabIndex = 32
+        Me.Label6.Text = "Important! You cannot change the icon or button after picking (cuz of VB) so choo" &
+    "se wisely!"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(942, 583)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.CheckedListBox2)
+        Me.Controls.Add(Me.YNC)
+        Me.Controls.Add(Me.ARI)
+        Me.Controls.Add(Me.Ok)
+        Me.Controls.Add(Me.OKC)
+        Me.Controls.Add(Me.RTC)
+        Me.Controls.Add(Me.YN)
+        Me.Controls.Add(Me.Icon32)
+        Me.Controls.Add(Me.Icon48)
+        Me.Controls.Add(Me.Icon64)
+        Me.Controls.Add(Me.Icon16)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.CheckedListBox1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label3)
@@ -217,12 +277,16 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents CheckedListBox1 As CheckedListBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents CheckedListBox2 As CheckedListBox
+    Friend WithEvents Icon16 As RadioButton
+    Friend WithEvents Icon64 As RadioButton
+    Friend WithEvents Icon48 As RadioButton
+    Friend WithEvents Icon32 As RadioButton
+    Friend WithEvents YN As RadioButton
+    Friend WithEvents RTC As RadioButton
+    Friend WithEvents OKC As RadioButton
+    Friend WithEvents Ok As RadioButton
+    Friend WithEvents ARI As RadioButton
+    Friend WithEvents YNC As RadioButton
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label10 As Label
 End Class
