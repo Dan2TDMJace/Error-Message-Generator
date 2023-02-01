@@ -36,11 +36,14 @@ Partial Class Form1
         Me.Icon32 = New System.Windows.Forms.RadioButton()
         Me.YN = New System.Windows.Forms.RadioButton()
         Me.RTC = New System.Windows.Forms.RadioButton()
-        Me.OKC = New System.Windows.Forms.RadioButton()
+        Me.OC = New System.Windows.Forms.RadioButton()
         Me.Ok = New System.Windows.Forms.RadioButton()
         Me.ARI = New System.Windows.Forms.RadioButton()
         Me.YNC = New System.Windows.Forms.RadioButton()
-        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -102,7 +105,7 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(738, 204)
+        Me.Label4.Location = New System.Drawing.Point(20, 16)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(85, 27)
         Me.Label4.TabIndex = 12
@@ -112,7 +115,7 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(457, 204)
+        Me.Label5.Location = New System.Drawing.Point(24, 16)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(53, 27)
         Me.Label5.TabIndex = 14
@@ -121,7 +124,7 @@ Partial Class Form1
         'Icon16
         '
         Me.Icon16.AutoSize = True
-        Me.Icon16.Location = New System.Drawing.Point(462, 234)
+        Me.Icon16.Location = New System.Drawing.Point(29, 46)
         Me.Icon16.Name = "Icon16"
         Me.Icon16.Size = New System.Drawing.Size(47, 17)
         Me.Icon16.TabIndex = 21
@@ -132,7 +135,7 @@ Partial Class Form1
         'Icon64
         '
         Me.Icon64.AutoSize = True
-        Me.Icon64.Location = New System.Drawing.Point(462, 280)
+        Me.Icon64.Location = New System.Drawing.Point(29, 92)
         Me.Icon64.Name = "Icon64"
         Me.Icon64.Size = New System.Drawing.Size(77, 17)
         Me.Icon64.TabIndex = 22
@@ -143,7 +146,7 @@ Partial Class Form1
         'Icon48
         '
         Me.Icon48.AutoSize = True
-        Me.Icon48.Location = New System.Drawing.Point(462, 257)
+        Me.Icon48.Location = New System.Drawing.Point(29, 69)
         Me.Icon48.Name = "Icon48"
         Me.Icon48.Size = New System.Drawing.Size(65, 17)
         Me.Icon48.TabIndex = 23
@@ -154,7 +157,7 @@ Partial Class Form1
         'Icon32
         '
         Me.Icon32.AutoSize = True
-        Me.Icon32.Location = New System.Drawing.Point(462, 303)
+        Me.Icon32.Location = New System.Drawing.Point(29, 115)
         Me.Icon32.Name = "Icon32"
         Me.Icon32.Size = New System.Drawing.Size(67, 17)
         Me.Icon32.TabIndex = 24
@@ -165,7 +168,7 @@ Partial Class Form1
         'YN
         '
         Me.YN.AutoSize = True
-        Me.YN.Location = New System.Drawing.Point(743, 326)
+        Me.YN.Location = New System.Drawing.Point(25, 138)
         Me.YN.Name = "YN"
         Me.YN.Size = New System.Drawing.Size(63, 17)
         Me.YN.TabIndex = 26
@@ -176,7 +179,7 @@ Partial Class Form1
         'RTC
         '
         Me.RTC.AutoSize = True
-        Me.RTC.Location = New System.Drawing.Point(743, 303)
+        Me.RTC.Location = New System.Drawing.Point(25, 115)
         Me.RTC.Name = "RTC"
         Me.RTC.Size = New System.Drawing.Size(89, 17)
         Me.RTC.TabIndex = 27
@@ -184,21 +187,21 @@ Partial Class Form1
         Me.RTC.Text = "Retry, Cancel"
         Me.RTC.UseVisualStyleBackColor = True
         '
-        'OKC
+        'OC
         '
-        Me.OKC.AutoSize = True
-        Me.OKC.Location = New System.Drawing.Point(743, 280)
-        Me.OKC.Name = "OKC"
-        Me.OKC.Size = New System.Drawing.Size(78, 17)
-        Me.OKC.TabIndex = 28
-        Me.OKC.TabStop = True
-        Me.OKC.Text = "Ok, Cancel"
-        Me.OKC.UseVisualStyleBackColor = True
+        Me.OC.AutoSize = True
+        Me.OC.Location = New System.Drawing.Point(25, 92)
+        Me.OC.Name = "OC"
+        Me.OC.Size = New System.Drawing.Size(78, 17)
+        Me.OC.TabIndex = 28
+        Me.OC.TabStop = True
+        Me.OC.Text = "Ok, Cancel"
+        Me.OC.UseVisualStyleBackColor = True
         '
         'Ok
         '
         Me.Ok.AutoSize = True
-        Me.Ok.Location = New System.Drawing.Point(743, 257)
+        Me.Ok.Location = New System.Drawing.Point(25, 69)
         Me.Ok.Name = "Ok"
         Me.Ok.Size = New System.Drawing.Size(39, 17)
         Me.Ok.TabIndex = 29
@@ -209,7 +212,7 @@ Partial Class Form1
         'ARI
         '
         Me.ARI.AutoSize = True
-        Me.ARI.Location = New System.Drawing.Point(743, 234)
+        Me.ARI.Location = New System.Drawing.Point(25, 46)
         Me.ARI.Name = "ARI"
         Me.ARI.Size = New System.Drawing.Size(117, 17)
         Me.ARI.TabIndex = 30
@@ -220,7 +223,7 @@ Partial Class Form1
         'YNC
         '
         Me.YNC.AutoSize = True
-        Me.YNC.Location = New System.Drawing.Point(743, 349)
+        Me.YNC.Location = New System.Drawing.Point(25, 161)
         Me.YNC.Name = "YNC"
         Me.YNC.Size = New System.Drawing.Size(102, 17)
         Me.YNC.TabIndex = 31
@@ -228,35 +231,39 @@ Partial Class Form1
         Me.YNC.Text = "Yes, No, Cancel"
         Me.YNC.UseVisualStyleBackColor = True
         '
-        'Label6
+        'Panel1
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(21, 488)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(895, 26)
-        Me.Label6.TabIndex = 32
-        Me.Label6.Text = "Important! You cannot change the icon or button after picking (cuz of VB) so choo" &
-    "se wisely!"
+        Me.Panel1.Controls.Add(Me.Icon32)
+        Me.Panel1.Controls.Add(Me.Icon48)
+        Me.Panel1.Controls.Add(Me.Icon64)
+        Me.Panel1.Controls.Add(Me.Icon16)
+        Me.Panel1.Controls.Add(Me.Label5)
+        Me.Panel1.Location = New System.Drawing.Point(433, 188)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(135, 154)
+        Me.Panel1.TabIndex = 33
+        '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.YNC)
+        Me.Panel2.Controls.Add(Me.ARI)
+        Me.Panel2.Controls.Add(Me.Ok)
+        Me.Panel2.Controls.Add(Me.OC)
+        Me.Panel2.Controls.Add(Me.RTC)
+        Me.Panel2.Controls.Add(Me.YN)
+        Me.Panel2.Controls.Add(Me.Label4)
+        Me.Panel2.Location = New System.Drawing.Point(718, 188)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(170, 187)
+        Me.Panel2.TabIndex = 34
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(942, 583)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.YNC)
-        Me.Controls.Add(Me.ARI)
-        Me.Controls.Add(Me.Ok)
-        Me.Controls.Add(Me.OKC)
-        Me.Controls.Add(Me.RTC)
-        Me.Controls.Add(Me.YN)
-        Me.Controls.Add(Me.Icon32)
-        Me.Controls.Add(Me.Icon48)
-        Me.Controls.Add(Me.Icon64)
-        Me.Controls.Add(Me.Icon16)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox1)
@@ -265,6 +272,10 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Message Box Generator"
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -284,9 +295,10 @@ Partial Class Form1
     Friend WithEvents Icon32 As RadioButton
     Friend WithEvents YN As RadioButton
     Friend WithEvents RTC As RadioButton
-    Friend WithEvents OKC As RadioButton
+    Friend WithEvents OC As RadioButton
     Friend WithEvents Ok As RadioButton
     Friend WithEvents ARI As RadioButton
     Friend WithEvents YNC As RadioButton
-    Friend WithEvents Label6 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel2 As Panel
 End Class

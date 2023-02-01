@@ -10,3 +10,16 @@ C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\bin\Debu
 C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Debug\Message Box Generator.exe
 C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Debug\Message Box Generator.xml
 C:\Users\khens\source\repos\Message Box Generator\Message Box Generator\obj\Debug\Message Box Generator.pdb
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\bin\Debug\Message Box Generator.exe.config
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\bin\Debug\Message Box Generator.exe
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\bin\Debug\Message Box Generator.pdb
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\bin\Debug\Message Box Generator.xml
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message Box Generator.vbproj.AssemblyReference.cache
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message Box Generator.vbproj.SuggestedBindingRedirects.cache
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message_Box_Generator.Form1.resources
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message_Box_Generator.Resources.resources
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message Box Generator.vbproj.GenerateResource.cache
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message Box Generator.vbproj.CoreCompileInputs.cache
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message Box Generator.exe
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message Box Generator.xml
+C:\Users\khens\OneDrive\Documents\GitHub\Error-Message-Generator\Message Box Generator\obj\Debug\Message Box Generator.pdb
